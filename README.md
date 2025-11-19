@@ -41,7 +41,7 @@ Please cite our repository as:
 @software{spinpolarizedsuperconductivity_github,
   author = {Max Geier},
   title = {{SpinPolarizedSuperconductivity.jl}},
-  url = {http://github.com/mg607/spinpolarizedsuperconductivityjl},
+  url = {https://github.com/mg607/SpinPolarizedSuperconductivity.jl},
   year = {2025},
 }
 ```
