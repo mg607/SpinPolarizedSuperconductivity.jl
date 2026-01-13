@@ -515,14 +515,8 @@ function get_chi0q_Vq_RPA(Pars::ModelParameters, qmax::Int64)::Tuple{Vector{Floa
     # @show qs
     if Pars.which_interaction == "Keldysh"
         interaction_fn = Keldysh2d
-    elseif Pars.which_interaction == "KeldyshSq0"
-        interaction_fn = Keldysh2dSq0
     elseif Pars.which_interaction == "Coulomb"
         interaction_fn = Coulomb2d
-    elseif Pars.which_interaction == "Gaussian"
-        interaction_fn = Gaussian2d
-    elseif Pars.which_interaction == "DeltaFn"
-        interaction_fn = DeltaFn
     else
         Print("Invalid interaction passed to Pars.which_interaction")
     end
